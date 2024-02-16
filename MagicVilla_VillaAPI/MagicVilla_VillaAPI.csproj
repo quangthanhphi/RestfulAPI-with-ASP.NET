@@ -21,6 +21,8 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +32,8 @@
     <None Remove="..\.editorconfig" />
     <None Remove="Repository\" />
     <None Remove="Repository\IRepository\" />
+    <None Remove="Controllers\v1\" />
+    <None Remove="Controllers\v2\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -38,5 +42,7 @@
     <Folder Include="Data\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\IRepository\" />
+    <Folder Include="Controllers\v1\" />
+    <Folder Include="Controllers\v2\" />
   </ItemGroup>
 </Project>

@@ -14,11 +14,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Villa = MagicVilla_VillaAPI.Models.Villa;
 
-namespace MagicVilla_VillaAPI.Controllers
+namespace MagicVilla_VillaAPI.Controllers.v1
 {
-    [Route("api/VillaNumberAPI")]
+    [Route("api/v{version:apiVersion}/VillaNumberAPI")]
     //[Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0", Deprecated = true)]
     public class VillaNumberAPIController : ControllerBase
     {
         protected APIResponse _response;
@@ -35,7 +36,14 @@ namespace MagicVilla_VillaAPI.Controllers
             _dbVilla = dbVilla;
         }
 
+        [HttpGet("GetString")]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "string1", "string2" };
+        }
+
         [HttpGet]
+        //[MapToApiVersion("1.0")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillaNumbers()
         {
