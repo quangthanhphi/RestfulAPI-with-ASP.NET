@@ -27,6 +27,7 @@ This project is a sample ASP.NET Core Web API project that demonstrates various 
 ## Deployment
 Instructions for deploying the project to a production environment will be added soon.
 
+## Screenshots
 ### API Overview
 
 ![API Overview](images/api_overview.png)
