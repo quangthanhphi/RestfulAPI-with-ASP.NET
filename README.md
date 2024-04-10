@@ -10,8 +10,8 @@ This project is a sample ASP.NET Core Web API project that demonstrates various 
 - Repository pattern implementation with Entity Framework Core
 - Authentication and Authorization
 - Consuming external APIs using HttpClient
-- Deployment
-
+- Dependency Injection in .NET API
+  
 ## Requirements
 
 - .NET 7 SDK
@@ -23,3 +23,6 @@ This project is a sample ASP.NET Core Web API project that demonstrates various 
 
    ```bash
    git clone https://github.com/quangthanhphi/RestfulAPI-with-ASP.NET
+
+## Deployment
+Instructions for deploying the project to a production environment will be added soon.
