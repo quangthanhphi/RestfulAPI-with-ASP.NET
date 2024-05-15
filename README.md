@@ -30,37 +30,27 @@ Instructions for deploying the project to a production environment will be added
 ## Screenshots
 ### API Overview
 
-![API Overview](images/api_overview.png)
+![API Overview](images/images/Screenshot 2024-05-15 at 19.55.36.png)
 
 This screenshot provides an overview of the API endpoints and operations available.
 
 ### Swagger Documentation
 
-![Swagger Documentation](images/swagger_documentation.png)
+![Swagger Documentation](images/Screenshot 2024-05-15 at 19.57.09.png)
 
 The Swagger documentation provides detailed information about each API endpoint, including request and response schemas.
 
 ### Versioning
 
-![Versioning](images/versioning.png)
-
 Versioning is implemented using URL-based versioning, allowing for different versions of the API to be accessed via different routes.
 
 ### Authentication and Authorization
-
-![Authentication and Authorization](images/authentication_authorization.png)
 
 JWT (JSON Web Tokens) are used for authentication and authorization, ensuring secure access to protected endpoints.
 
 ### Consuming External APIs
 
-![Consuming External APIs](images/consuming_external_apis.png)
-
 The project demonstrates how to consume external APIs using HttpClient to fetch data from third-party services.
 
-### Deployment
 
-![Deployment](images/deployment.png)
-
-Instructions for deploying the project to a production environment will be added soon.
 
