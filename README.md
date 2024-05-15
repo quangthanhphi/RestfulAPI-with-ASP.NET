@@ -30,13 +30,13 @@ Instructions for deploying the project to a production environment will be added
 ## Screenshots
 ### API Overview
 
-![API Overview](images/Screenshot 2024-05-15 at 19.55.36.png)
+![API Overview](images/image1.png)
 
 This screenshot provides an overview of the API endpoints and operations available.
 
 ### Swagger Documentation
 
-![Swagger Documentation](images/Screenshot 2024-05-15 at 19.57.09.png)
+![Swagger Documentation](images/image2.png)
 
 The Swagger documentation provides detailed information about each API endpoint, including request and response schemas.
 
